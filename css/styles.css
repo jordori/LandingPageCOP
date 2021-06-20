@@ -1,0 +1,38 @@
+#title{
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.titulo1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #FF6480;
+    width: 903px;
+    height: 104px;
+    left: calc(50% - 903px/2 + 2.5px);
+    top: 326px;
+}
+.container-fluid{
+    padding: 3% 30%;
+}
+.navbar-brand{
+    padding-left: 2%;
+    padding-top: 1%;
+}
+.nav-item{
+    font-family: 'Lato', sans-serif;
+    text-decoration: underline;
+    color: #FFFF;
+}
+body{
+    background-color: #2A0D2E;
+}
+.poplight{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
