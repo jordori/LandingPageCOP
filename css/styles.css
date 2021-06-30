@@ -232,3 +232,80 @@ body{
 .section-plans .row h2{
     padding: 20px;
 }
+
+.Nosotros_cont{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    background: #2A0D2E;
+    margin-top: 100px;
+    border-top: 6px;
+}
+
+
+.Nosotros_cont h2{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 4px;
+}
+
+.Nosotros_cont img{
+    width: 400px;
+    height: 250px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    float:left;
+}
+
+.Nosotros_cont p{
+    font-size: 18px;
+    font-weight: 300px;
+    margin-top: 20px;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #FF6480;
+    padding: 0px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #FFFFFF;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #FFFFFF;
+}
+
+
+footer p {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+}
