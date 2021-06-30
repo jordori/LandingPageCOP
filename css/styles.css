@@ -1,6 +1,12 @@
-#title{
-
+/*Mark*/
+h2{
+    color: #FF6480;
 }
+
+li,p,h3{
+    color: #FFFFFF;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -16,18 +22,25 @@ body{
 .container-fluid{
     padding: 3% 30%;
 }
-.navbar-brand{
-    padding-left: 2%;
-    padding-top: 1%;
+
+.container-fluid-center{
+    margin-right: auto;
+    text-align: center;
 }
+
 .nav-item{
     font-family: 'Lato', sans-serif;
-    text-decoration: underline;
     color: #FFFF;
 }
 body{
     background-color: #2A0D2E;
+    background-image: url("../images/LandingImage1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: color-dodge;
 }
+
+
 .poplight{
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
@@ -35,6 +48,48 @@ body{
     text-align: center;
     letter-spacing: 0.3px;
     color: #FFFFFF;
+}
+
+.list-content-img ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.list-content-img li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 6%;
+    width: max-content;
+    margin-right: 0.5%;
+    padding-left: 10%;
+    margin-left: 0;
+}
+
+.list-content-img li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.text-content{
+    text-align: center;
+    font-size: xx-small;
+    color: #FFFFFF;
+}
+
+.list-content{
+    line-height: 55px;
+    text-align: center;
+}
+
+.list-content span {
+    color: #FF6480;
+    font-size: 88%;
+}
+
+.list-content h3 {
+    color: #FFFFFF;
+    font-size: 76%;
 }
 
 .navbar-brand{
